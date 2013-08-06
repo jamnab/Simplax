@@ -1,3 +1,5 @@
+<h1>Simplax.css | The simplest most barebones parallax effect.</h1>
+
 This is my first open source framework. It's pretty basic but that's the benefit of it.
 The code is a simple breakdown of the parallax effect for anyone who doesn't want the hassle of having to edit a tonne of code. It's as simple as duplicating another item tag in the index.html and duplicating the item selector in the style.css. The cool thing is that the site should scale to fit your browser on any screen size, but if you do run into problems the code is setup for you to make changes at proper breakpoints.
 
@@ -13,7 +15,7 @@ Just copy, paste this under the list of tags, change the id item number (#) and 
 
 The css selector:
 
-#item-1 {
+item-1 {
 
 	background-image: url(slideshow/simplax-info-1.png);
 	background-repeat: no-repeat;
@@ -25,6 +27,7 @@ The css selector:
 	-moz-background-size: cover;																			    -o-background-size: cover;																				background-size: cover;
 	
 	height: 675px;
+
 	}
 
 Just copy and paste this under the list of item selectors, change the item number (#), and change the background-url: to the filename of your image name & location. It's that easy.
@@ -48,14 +51,26 @@ The code should look like this:
 
 
 You may also want to change the site title to match the name of your project.
-Just change the text between the <title>Simplax.css</title> and <h1>Change the name of your project here</h1>.
+Just change the text between the title tag and the h1 tag.
+
+Here's the sample code:
+
+<title>
+	Simplax.css
+</title>
+
+and
+
+<h1>
+	Change the name of your project here
+</h1>
 
 Also if you want to change the logo just go to the #logo selector in style.css and change the background-image: url();
 As well you should change the width and the height to your preferred pixel size.
 
 The code should look like this:
 
-#logo {
+logo {
 	background-image: url(images/jm-logo-blue-circle.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -67,8 +82,8 @@ The code should look like this:
 	-o-background-size: cover;
 	background-size: cover;
 
-	height: 75px;																					    width: 75px;
-
+	height: 75px;
+	width: 75px;
 }
 
 That's pretty much the basics of what are available to use. The whole point is to be as simple as possible so that Designers can design and drop their images into the code with ease. Any extras like transitions or js are up to the more capable users to add-on. I hope this is code becomes really useful for you.
