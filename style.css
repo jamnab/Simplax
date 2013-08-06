@@ -1,0 +1,370 @@
+/** This is the main style sheet for my portfolio site **/
+
+/** This imports the reset stylesheet for cross browser style consistency **/
+	@import url("reset.css");
+
+/** This imports the custom typography for my website **/
+	@font-face {
+		font-family: , serif;
+		src: url('');
+	}
+
+/** Global Variables **/
+	html	{
+		font-family: Helvetica, sans-serif;
+
+	}
+	body 	{
+		padding: 0;
+
+		text-align: center;
+
+		color: #555;
+	
+	}
+	h1	{
+
+	}
+	h2	{
+
+	}
+	h3	{
+
+	}
+	p	{
+		padding: 5px 0 15px 0;
+
+		font-size: 1.25em;
+	}
+	a	{
+		
+	}
+	header	{
+		
+	}
+	footer a	{
+		text-decoration: none;
+		color: #555;
+	}
+	footer a:visited	{
+		color: #555;
+	}
+/** Local Variables **/
+	
+	#content-holder 
+	{
+
+	}
+	#main-content
+	{
+		width: 100%;
+		height: auto;
+		z-index: -100;
+		
+	}
+	.icons
+	{
+		height: 36px;
+		width: 36px;
+
+		margin: 0 5px;
+	}
+	.gallery-item
+	{
+
+	}
+		#item-1 {
+
+			background-image: url(slideshow/simplax-info-1.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+
+		}
+		#item-2 {
+
+			background-image: url(slideshow/simplax-info-2.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+
+		}
+		#item-3 {
+
+			background-image: url(slideshow/simplax-info-3.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-4 {
+
+			background-image: url(slideshow/simplax-info-4.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-5 {
+
+			background-image: url(slideshow/logo-1.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-6 {
+
+			background-image: url(slideshow/logo-2.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-7 {
+
+			background-image: url(slideshow/logo-3.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-8 {
+
+			background-image: url(slideshow/logo-4.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-9 {
+
+			background-image: url(slideshow/logo-5.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-10 {
+
+			background-image: url(slideshow/logo-6.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-11 {
+
+			background-image: url(slideshow/logo-7.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-12 {
+
+			background-image: url(slideshow/logo-8.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-13 {
+
+			background-image: url(slideshow/logo-9.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-14 {
+
+			background-image: url(slideshow/logo-10.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-15 {
+
+			background-image: url(slideshow/logo-11.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-16 {
+
+			background-image: url(slideshow/logo-12.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-17 {
+
+			background-image: url(slideshow/logo-13.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+		#item-18 {
+
+			background-image: url(slideshow/simplax-info-final.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 675px;
+		}
+
+/** Responsive Variables **/
+	
+	/** Smartphones Screen **/
+		@media only screen and (max-width: 320px) {
+
+
+		}
+
+	/** Tablet Screen **/
+		@media only screen and (max-width: 780px) {
+
+		}
+
+	/** Laptop Screen **/
+		@media only screen and (max-width: 1020px) {
+
+		}
+
+	/** Desktop Screen **/
+		@media only screen and (max-width: 1220px) {
+
+		}
