@@ -42,6 +42,13 @@
 	header	{
 		
 	}
+	nav a	{
+		text-decoration: none;
+		color: #555;
+	}
+	nav a:visited	{
+		color: #555;
+	}
 	footer a	{
 		text-decoration: none;
 		color: #555;
@@ -62,6 +69,23 @@
 		z-index: -100;
 		
 	}
+	#logo {
+
+			background-image: url(imagesjm-logo-blue-circle.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+
+			/** Matches the background size to the browser width **/
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			height: 75px;
+			width: 75px;
+
+		}
 	.icons
 	{
 		height: 36px;
