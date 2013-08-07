@@ -6,16 +6,16 @@ The code is a simple breakdown of the parallax effect for anyone who doesn't wan
 
 Here's the current link to the example site: http://diymanik.pancakeapps.com/Simplax/index.html
 
-Here's some of the code:
+*Here's some of the code:*
 
-The html tag:
+*The html tag:*
  ```html
  <div class="gallery-item" id="item-1"></div>
  ```
 
 Just copy, paste this under the list of tags, change the id item number (#) and the page will expand to fit your image.
 
-The css selector:
+*The css selector:*
  ```css
  item-1 {
 
@@ -35,13 +35,13 @@ The css selector:
 Just copy and paste this under the list of item selectors, change the item number (#), and change the background-url: to the filename of your image name & location. It's that easy.
 
 
-Extras:
+<h4>Extras:</h4>
 
 For the more technically savvy there is the option of adding in tags to allow your webpage visitors to go to a specific point on the page.
 
 Just an anchor tag in the <nav> element. Finally change the href="" value to the id of the specific gallery element you would like the page to jump to.
 
-The code should look like this:
+*The code should look like this:*
  ```html
  <nav class="container">
 	<div class="logo"></div>
@@ -55,11 +55,11 @@ The code should look like this:
 You may also want to change the site title to match the name of your project.
 Just change the text between the title tag and the h1 tag.
 
-Here's the sample code:
+*Here's the sample code:*
  ```html
  <title>Simplax.css</title>
  ```
-and
+*And*
  ```html
  <h1>Change the name of your project here</h1>
  ```
@@ -67,7 +67,7 @@ and
 Also if you want to change the logo just go to the #logo selector in style.css and change the background-image: url();
 As well you should change the width and the height to your preferred pixel size.
 
-The code should look like this:
+*The code should look like this:*
  ```html
  logo {
 	background-image: url(images/jm-logo-blue-circle.png);
