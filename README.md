@@ -4,7 +4,9 @@
 This is my first open source framework. It's pretty basic but that's the benefit of it.
 The code is a simple breakdown of the parallax effect for anyone who doesn't want the hassle of having to edit a tonne of code. It's as simple as duplicating another item tag in the index.html and duplicating the item selector in the style.css. The cool thing is that the site should scale to fit your browser on any screen size, but if you do run into problems the code is setup for you to make changes at proper breakpoints.
 
-Here's the current link to the example site: http://diymanik.pancakeapps.com/Simplax/index.html
+_Here's the current link to the example site:_
+
+http://simplax.mcnabj.com/
 
 *Here's some of the code:*
 
