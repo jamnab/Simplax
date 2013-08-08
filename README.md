@@ -61,7 +61,7 @@ Also if you want to change the logo just go to the #logo selector in style.css a
 As well you should change the width and the height to your preferred pixel size.
 
 *The code should look like this:*
- ```html
+ ```css
  logo {
 	background-image: url(images/jm-logo-blue-circle.png);
 	background-repeat: no-repeat;
