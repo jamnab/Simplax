@@ -22,16 +22,7 @@ Just copy, paste this under the list of tags, change the id item number (#) and 
  item-1 {
 
 	background-image: url(slideshow/simplax-info-1.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
 	
-	/** Matches the background size to the browser width **/
-	-webkit-background-size: cover;
-	-moz-background-size: cover;																			    -o-background-size: cover;																				background-size: cover;
-	
-	height: 675px;
-
 	}
  ```
 Just copy and paste this under the list of item selectors, change the item number (#), and change the background-url: to the filename of your image name & location. It's that easy.
@@ -48,9 +39,9 @@ Just an anchor tag in the <nav> element. Finally change the href="" value to the
  <nav class="container">
 	<div class="logo"></div>
 
-	<a class="cuban-linx" href=""><h3>Example Link 1</h3></a>
-	<a class="cuban-linx" href=""><h3>Example Link 2</h3></a>
-	<a class="cuban-linx" href=""><h3>Example Link 3</h3></a>
+	<a class="cuban-linx" href="#item-1"><h3>Example Link 1</h3></a>
+	<a class="cuban-linx" href="#item-2"><h3>Example Link 2</h3></a>
+	<a class="cuban-linx" href="#item-3"><h3>Example Link 3</h3></a>
  </nav>
  ```
 
